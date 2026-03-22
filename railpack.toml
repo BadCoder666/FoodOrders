@@ -1,0 +1,5 @@
+[config]
+build_type = "python"
+
+[build]
+cmd = "pip install -r backend/requirements.txt && cd frontend && npm install && npm run build"
